@@ -1,6 +1,7 @@
 
 from pydoc import describe
 import pymysql
+import matplotlib.pyplot as plt
 
 schlocationName = input("請輸入縣市地區")
 
@@ -12,9 +13,12 @@ if schlocationName !='':
     data0 = cursor.fetchall()
     # print(data0)
     for row in data0:
-        print (row[3],row[4],row[5])
-        print (row[17],row[18],row[19])
-        print (row[42],row[43],row[44])
+        # 溫度變化圖表
+        data=[row[6],row[14],row[31],row[35],row[39],row[54],row[58],row[62]]
+        plt.xlabel("Day")
+        plt.ylabel("Celsius")
+        plt.plot(data)
+        plt.show()
 
     db.close()
 else:
