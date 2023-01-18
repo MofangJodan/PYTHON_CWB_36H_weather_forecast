@@ -22,39 +22,31 @@ for($zz;$zz<22;$zz++)
     $locationName = $json0_AA1 -> records -> location[$zz] ->locationName;
 
     $hwf01 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> elementName;
-
     $hwf02 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[0] -> startTime;
     $hwf03 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[0] -> endTime;
     $hwf04 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[0] -> parameter ->parameterName ;
     $hwf05 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[0] -> parameter ->parameterValue ;
-
     $hwf06 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[1] -> startTime;
     $hwf07 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[1] -> endTime;
     $hwf08 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[1] -> parameter ->parameterName ;
     $hwf09 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[1] -> parameter ->parameterValue ;
-
     $hwf10 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[2] -> startTime;
     $hwf11 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[2] -> endTime;
     $hwf12 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[2] -> parameter ->parameterName ;
     $hwf13 = $json0_AA1 -> records -> location[$zz] -> weatherElement[0] -> time[2] -> parameter ->parameterValue ;
-
     $hwf14 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> elementName;
-
     $hwf15 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[0] -> startTime;
     $hwf16 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[0] -> endTime;
     $hwf17 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[0] -> parameter ->parameterName ;
     $hwf18 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[0] -> parameter ->parameterUnit ;
-
     $hwf19 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[1] -> startTime;
     $hwf20 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[1] -> endTime;
     $hwf21 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[1] -> parameter ->parameterName ;
     $hwf22 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[1] -> parameter ->parameterUnit ;
-
     $hwf23 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[2] -> startTime;
     $hwf24 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[2] -> endTime;
     $hwf25 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[2] -> parameter ->parameterName ;
     $hwf26 = $json0_AA1 -> records -> location[$zz] -> weatherElement[1] -> time[2] -> parameter ->parameterUnit ;
-
     $hwf27 = $json0_AA1 -> records -> location[$zz] -> weatherElement[2] -> elementName;
     $hwf28 = $json0_AA1 -> records -> location[$zz] -> weatherElement[2] -> time[0] -> startTime;
     $hwf29 = $json0_AA1 -> records -> location[$zz] -> weatherElement[2] -> time[0] -> endTime;
@@ -68,20 +60,16 @@ for($zz;$zz<22;$zz++)
     $hwf37 = $json0_AA1 -> records -> location[$zz] -> weatherElement[2] -> time[2] -> endTime;
     $hwf38 = $json0_AA1 -> records -> location[$zz] -> weatherElement[2] -> time[2] -> parameter ->parameterName ;
     $hwf39 = $json0_AA1 -> records -> location[$zz] -> weatherElement[2] -> time[2] -> parameter ->parameterUnit ;
-
     $hwf40 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> elementName;
     $hwf41 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[0] -> startTime;
     $hwf42 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[0] -> endTime;
     $hwf43 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[0] -> parameter ->parameterName ;
-
     $hwf44 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[1] -> startTime;
     $hwf45 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[1] -> endTime;
     $hwf46 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[1] -> parameter ->parameterName ;
-
     $hwf47 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[2] -> startTime;
     $hwf48 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[2] -> endTime;
     $hwf49 = $json0_AA1 -> records -> location[$zz] -> weatherElement[3] -> time[2] -> parameter ->parameterName ;
-
     $hwf50 = $json0_AA1 -> records -> location[$zz] -> weatherElement[4] -> elementName;
     $hwf51 = $json0_AA1 -> records -> location[$zz] -> weatherElement[4] -> time[0] -> startTime;
     $hwf52 = $json0_AA1 -> records -> location[$zz] -> weatherElement[4] -> time[0] -> endTime;
